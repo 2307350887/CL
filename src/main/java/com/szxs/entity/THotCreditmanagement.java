@@ -1,6 +1,8 @@
 package com.szxs.entity;
 
-
+/**
+ * 信用值表
+ */
 public class THotCreditmanagement {
 
   private String uuid;

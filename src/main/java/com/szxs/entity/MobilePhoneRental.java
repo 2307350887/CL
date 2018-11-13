@@ -3,6 +3,9 @@ package com.szxs.entity;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * 热门租机
+ */
 public class MobilePhoneRental implements Serializable {
     private String uuid;
     private String brand_id;

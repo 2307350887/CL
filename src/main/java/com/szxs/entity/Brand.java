@@ -1,5 +1,8 @@
 package com.szxs.entity;
 
+/**
+ * 品牌表
+ */
 public class Brand {
     private String uuid;
     private String brand_code;

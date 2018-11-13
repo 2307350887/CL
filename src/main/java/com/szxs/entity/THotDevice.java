@@ -3,6 +3,9 @@ package com.szxs.entity;
 
 import java.util.Date;
 
+/**
+ * 手机表
+ */
 public class THotDevice {
 
   private String uuid;
