@@ -28,4 +28,6 @@ public interface MobilePhoneRentalService {
      * @return
      */
     public List<MobilePhoneRental> selectMobilePhoneRental();
+
+    public List<Order>
 }
