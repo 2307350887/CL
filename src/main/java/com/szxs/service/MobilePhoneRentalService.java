@@ -1,9 +1,6 @@
 package com.szxs.service;
 
-import com.szxs.entity.Brand;
-import com.szxs.entity.MobilePhoneRental;
-import com.szxs.entity.THotCreditmanagement;
-import com.szxs.entity.THotDevice;
+import com.szxs.entity.*;
 
 import java.util.List;
 
@@ -29,5 +26,9 @@ public interface MobilePhoneRentalService {
      */
     public List<MobilePhoneRental> selectMobilePhoneRental();
 
-    public List<Order>
+    /**
+     * 查询 手机订单
+     * @return
+     */
+    public List<THotOrder> selectTHotOrder();
 }
