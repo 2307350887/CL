@@ -30,5 +30,5 @@ public interface MobilePhoneRentalService {
      * 查询 手机订单
      * @return
      */
-    public List<THotOrder> selectTHotOrder();
+    public List<MobilePhoneOrder> selectTHotOrder();
 }
