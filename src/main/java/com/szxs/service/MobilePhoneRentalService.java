@@ -1,5 +1,6 @@
 package com.szxs.service;
 
+import com.szxs.entity.Brand;
 import com.szxs.entity.MobilePhoneRental;
 
 import java.util.List;
@@ -11,4 +12,9 @@ public interface MobilePhoneRentalService {
      * @return
      */
     public List<MobilePhoneRental> selectMobilePhoneRental(String id);
+    /**
+     * 查询 手机品牌
+     * @return
+     */
+    public List<Brand> selectBrandList();
 }
