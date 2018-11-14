@@ -2,7 +2,10 @@ package com.szxs.entity;
 
 import java.util.Date;
 
-public class MobilePhoneOrder {
+/**
+ * 售后订单类
+ */
+public class MobilePhoneAfterSaleOrder {
     private String uuid;
     private double price;
     private Date ordertime;
