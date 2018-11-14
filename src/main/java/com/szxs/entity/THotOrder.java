@@ -1,12 +1,34 @@
 package com.szxs.entity;
 
 
+import java.util.Date;
+
 public class THotOrder {
 
   private String uuid;
   private String deviceid;
   private String price;
-  private java.sql.Date ordertime;
+  private Date ordertime;
+  private String staticid;
+
+  public Date getOrdertime() {
+    return ordertime;
+  }
+
+  public void setOrdertime(Date ordertime) {
+    this.ordertime = ordertime;
+  }
+
+  public String getStaticid() {
+    return staticid;
+  }
+
+  public void setStaticid(String staticid) {
+    this.staticid = staticid;
+  }
+
+
+
 
 
   public String getUuid() {
@@ -36,12 +58,5 @@ public class THotOrder {
   }
 
 
-  public java.sql.Date getOrdertime() {
-    return ordertime;
-  }
-
-  public void setOrdertime(java.sql.Date ordertime) {
-    this.ordertime = ordertime;
-  }
 
 }
