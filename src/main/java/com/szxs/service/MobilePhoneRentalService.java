@@ -45,5 +45,15 @@ public interface MobilePhoneRentalService {
      */
     public List<MobilePhoneAbnormalOrder> selectMobilePhoneAbnormalOrder();
 
+    /**
+     * 查询 还款
+     * @return
+     */
+    public List<MobilePhoneRepayment> selectMobilePhoneRepayment();
 
+    /**
+     * 查询 还款异常
+     * @return
+     */
+    public List<MobilePhoneRepayment> selectMobilePhoneRepaymentAbnormal();
 }
