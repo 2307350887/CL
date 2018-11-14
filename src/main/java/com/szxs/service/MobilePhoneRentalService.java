@@ -27,8 +27,23 @@ public interface MobilePhoneRentalService {
     public List<MobilePhoneRental> selectMobilePhoneRental();
 
     /**
+     * 查询 手机售后订单
+     * @return
+     */
+    public List<MobilePhoneAfterSaleOrder> MobilePhoneOrder();
+
+    /**
      * 查询 手机订单
      * @return
      */
     public List<MobilePhoneOrder> selectMobilePhoneOrder();
+
+
+    /**
+     * 查询 手机异常订单
+     * @return
+     */
+    public List<MobilePhoneAbnormalOrder> selectMobilePhoneAbnormalOrder();
+
+
 }
