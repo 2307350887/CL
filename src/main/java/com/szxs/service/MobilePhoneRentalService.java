@@ -94,7 +94,11 @@ public interface MobilePhoneRentalService {
      * 删除 手机售后订单
      * @return
      */
+    //删除 售后表
+    public int deleteMobilePhoneAftersalemanagement(String uuid);
+    //删除 订单表
     public int deleteMobilePhoneOrder( String uuid);
+
 
     /**
      * 删除 手机异常订单
