@@ -8,7 +8,7 @@ public class THotOrder {
   private String uuid;
   private String deviceid;
   private String price;
-  private Date ordertime;
+  private Date   ordertime;
   private String staticid;
 
   public Date getOrdertime() {

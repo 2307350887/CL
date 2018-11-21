@@ -14,11 +14,11 @@ public class THotDevice {
   private String devicePictureId;
   private double minPrice;
   private double maxPrice;
-  private int viewOrder;
+  private int    viewOrder;
   private String createdBy;
-  private Date creationDate;
+  private Date   creationDate;
   private String lastUpdateBy;
-  private Date lastUpdateDate;
+  private Date   lastUpdateDate;
   private String extField1;
   private String extField2;
   private String memo;

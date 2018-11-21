@@ -7,7 +7,7 @@ public class THotRepaymenttable {
 
   private String uuid;
   private String stateid;
-  private Date leftDate;
+  private Date   leftDate;
   private String deviceid;
   private Double price;
 

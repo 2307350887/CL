@@ -7,7 +7,7 @@ public class THotCreditmanagement {
 
   private String uuid;
   private String userid;
-  private int creditmanagementnum;
+  private int    creditmanagementnum;
 
 
   public String getUuid() {

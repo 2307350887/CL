@@ -13,7 +13,8 @@ public class Brand {
     private String creation_date;
     private String last_update_by;
     private String last_update_date;
-    private String ext_field1;private String ext_field2;
+    private String ext_field1;
+    private String ext_field2;
     private String memo;
     private String view_order;
 
