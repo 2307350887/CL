@@ -1,15 +1,17 @@
 package com.szxs.entity;
 
 
+import java.util.Date;
+
 public class THotAftersalemanagement {
 
   private String uuid;
   private String ordernumber;
   private String stateid;
   private String leftBy;
-  private java.sql.Date leftDate;
+  private Date   leftDate;
   private String createBy;
-  private java.sql.Date createDate;
+  private Date   createDate;
 
 
   public String getUuid() {
@@ -48,13 +50,6 @@ public class THotAftersalemanagement {
   }
 
 
-  public java.sql.Date getLeftDate() {
-    return leftDate;
-  }
-
-  public void setLeftDate(java.sql.Date leftDate) {
-    this.leftDate = leftDate;
-  }
 
 
   public String getCreateBy() {
@@ -65,13 +60,19 @@ public class THotAftersalemanagement {
     this.createBy = createBy;
   }
 
+  public Date getLeftDate() {
+    return leftDate;
+  }
 
-  public java.sql.Date getCreateDate() {
+  public void setLeftDate(Date leftDate) {
+    this.leftDate = leftDate;
+  }
+
+  public Date getCreateDate() {
     return createDate;
   }
 
-  public void setCreateDate(java.sql.Date createDate) {
+  public void setCreateDate(Date createDate) {
     this.createDate = createDate;
   }
-
 }
