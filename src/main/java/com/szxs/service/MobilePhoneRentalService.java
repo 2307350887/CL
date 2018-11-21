@@ -115,4 +115,5 @@ public interface MobilePhoneRentalService {
     public int deleteMobilePhoneRepayment( String uuid);
     //删除异常还款
     public int deleteMobilePhoneRepaymentAbnormal(  String uuid);
+
 }
