@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * 异常订单类
  */
-public class MobilePhoneAbnormalOrder {
+public class  MobilePhoneAbnormalOrder {
   private String uuid;
   private double price;
   private Date orderTime;
