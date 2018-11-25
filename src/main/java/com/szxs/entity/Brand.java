@@ -12,9 +12,9 @@ public class Brand {
     private String brand_type;
     private String brand_picture_id;
     private String created_by;
-    private Date creation_date;
+    private Date   creation_date;
     private String last_update_by;
-    private Date last_update_date;
+    private Date   last_update_date;
     private String ext_field1;
     private String ext_field2;
     private String memo;
