@@ -1,5 +1,7 @@
 package com.szxs.entity;
 
+import java.util.Date;
+
 /**
  * 品牌表
  */
@@ -10,9 +12,9 @@ public class Brand {
     private String brand_type;
     private String brand_picture_id;
     private String created_by;
-    private String creation_date;
+    private Date creation_date;
     private String last_update_by;
-    private String last_update_date;
+    private Date last_update_date;
     private String ext_field1;
     private String ext_field2;
     private String memo;
@@ -66,13 +68,6 @@ public class Brand {
         this.created_by = created_by;
     }
 
-    public String getCreation_date() {
-        return creation_date;
-    }
-
-    public void setCreation_date(String creation_date) {
-        this.creation_date = creation_date;
-    }
 
     public String getLast_update_by() {
         return last_update_by;
@@ -82,11 +77,19 @@ public class Brand {
         this.last_update_by = last_update_by;
     }
 
-    public String getLast_update_date() {
+    public Date getCreation_date() {
+        return creation_date;
+    }
+
+    public void setCreation_date(Date creation_date) {
+        this.creation_date = creation_date;
+    }
+
+    public Date getLast_update_date() {
         return last_update_date;
     }
 
-    public void setLast_update_date(String last_update_date) {
+    public void setLast_update_date(Date last_update_date) {
         this.last_update_date = last_update_date;
     }
 
