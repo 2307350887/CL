@@ -6,7 +6,7 @@ import java.util.Date;
  * 品牌表
  */
 public class Brand {
-    private String uuid ;
+    private String uuid;
     private String brand_code ;
     private String brand_name;
     private String brand_type;
