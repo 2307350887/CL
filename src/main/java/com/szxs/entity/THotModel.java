@@ -1,19 +1,21 @@
 package com.szxs.entity;
 
+import java.util.Date;
+
 public class THotModel {
     private String ID;
     private String MOBILE;
     private String DEVICE_ID;
-    private String STARTTIME;
+    private Date STARTTIME;
     private String ENDTIME;
     private String SALES_VOLUME;
     private String SORT_CODE;
     private String EXTEND1;
     private String EXTEND2;
     private String CREATED_BY;
-    private String CREATION_DATE;
+    private Date CREATION_DATE;
     private String LAST_UPDATE_BY;
-    private String LAST_UPDATE_DATE;
+    private Date LAST_UPDATE_DATE;
     private String MEMO;
 
 
@@ -41,11 +43,11 @@ public class THotModel {
         this.DEVICE_ID = DEVICE_ID;
     }
 
-    public String getSTARTTIME() {
+    public Date getSTARTTIME() {
         return STARTTIME;
     }
 
-    public void setSTARTTIME(String STARTTIME) {
+    public void setSTARTTIME(Date STARTTIME) {
         this.STARTTIME = STARTTIME;
     }
 
@@ -97,11 +99,11 @@ public class THotModel {
         this.CREATED_BY = CREATED_BY;
     }
 
-    public String getCREATION_DATE() {
+    public Date getCREATION_DATE() {
         return CREATION_DATE;
     }
 
-    public void setCREATION_DATE(String CREATION_DATE) {
+    public void setCREATION_DATE(Date CREATION_DATE) {
         this.CREATION_DATE = CREATION_DATE;
     }
 
@@ -113,11 +115,11 @@ public class THotModel {
         this.LAST_UPDATE_BY = LAST_UPDATE_BY;
     }
 
-    public String getLAST_UPDATE_DATE() {
+    public Date getLAST_UPDATE_DATE() {
         return LAST_UPDATE_DATE;
     }
 
-    public void setLAST_UPDATE_DATE(String LAST_UPDATE_DATE) {
+    public void setLAST_UPDATE_DATE(Date LAST_UPDATE_DATE) {
         this.LAST_UPDATE_DATE = LAST_UPDATE_DATE;
     }
 
