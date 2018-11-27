@@ -7,7 +7,7 @@ import java.util.Date;
  */
 public class Brand {
     private String uuid;
-    private String brand_code ;
+    private String brand_code;
     private String brand_name;
     private String brand_type;
     private String brand_picture_id;
